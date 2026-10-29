@@ -1,13 +1,13 @@
 cask "hushscribe" do
-  version "3.5.0"
-  sha256 "5bf558bbf1cd4b8ff29450c6f513486da88da78500b4dc560ab7b01545459f30"
+  version :latest
+  sha256 :no_check
 
-  url "https://github.com/drcursor/HushScribe/releases/download/v#{version}/HushScribe.dmg"
+  url "https://github.com/m1tm4n404/HushScribe/releases/latest/download/HushScribe.dmg"
   name "HushScribe"
   desc "Local meeting transcription and capture for Obsidian vaults"
-  homepage "https://github.com/drcursor/HushScribe"
+  homepage "https://github.com/m1tm4n404/HushScribe"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: ">= :tahoe"
 
   app "HushScribe.app"
 
