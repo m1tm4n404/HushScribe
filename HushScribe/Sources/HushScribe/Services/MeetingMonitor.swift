@@ -25,6 +25,7 @@ final class MeetingMonitor {
         "com.google.meet":            "Google Meet",
         "com.discord":                "Discord",
         "com.loom.desktop":           "Loom",
+        "kontur.talk":                "Толк",
     ]
 
     /// True when a watched app is running AND the mic is actively in use.
