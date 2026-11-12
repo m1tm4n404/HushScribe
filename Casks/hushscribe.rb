@@ -7,7 +7,7 @@ cask "hushscribe" do
   desc "Local meeting transcription and capture for Obsidian vaults"
   homepage "https://github.com/m1tm4n404/HushScribe"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "HushScribe.app"
 
